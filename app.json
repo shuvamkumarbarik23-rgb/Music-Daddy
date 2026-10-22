@@ -1,0 +1,38 @@
+{
+  "name": "Sukuna X Music",
+  "description": "Telegram group voice-chat radio streaming bot",
+  "repository": "https://github.com/your-username/Sukuna-X-Music",
+  "keywords": ["telegram", "radio", "music", "pytgcalls"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API hash from my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token from @BotFather. Use STRING_SESSION if your setup needs a user session.",
+      "required": false
+    },
+    "STRING_SESSION": {
+      "description": "Optional Pyrogram user session string. Treat it like a password.",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram numeric user ID",
+      "required": false
+    },
+    "STREAM_URL": {
+      "description": "Direct audio stream URL you have permission to rebroadcast",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}

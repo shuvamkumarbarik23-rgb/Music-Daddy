@@ -1,0 +1,14 @@
+[project]
+name = "sukuna-x-music"
+version = "0.1.0"
+description = "Telegram group voice-chat radio streaming bot"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "Pyrogram==2.0.106",
+  "TgCrypto==1.2.5",
+  "py-tgcalls==2.2.11",
+  "python-dotenv==1.0.1",
+]
+
+[tool.uv]
+package = false

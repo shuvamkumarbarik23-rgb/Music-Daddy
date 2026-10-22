@@ -1,0 +1,10 @@
+__pycache__
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.session
+.venv
+venv
+.git
+.github
